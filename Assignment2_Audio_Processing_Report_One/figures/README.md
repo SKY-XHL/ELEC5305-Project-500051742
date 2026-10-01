@@ -1,0 +1,1 @@
+# FiguresPlanned figures include:1. Processing pipeline diagram2. Time-domain waveform comparison3. FFT magnitude-spectrum comparison4. Rain STFT spectrogram5. Dog-bark STFT spectrogram6. Clock-tick STFT spectrogram7. STFT window-length comparison
