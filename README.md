@@ -3,7 +3,7 @@
 - **Course:** ELEC5305 Acoustics, Speech and Signal Processing
 - **Student:** Haoliang Xiong
 - **Student ID:** 500051742
-- **Project site:** https://sky-xhl.github.io/elec5305-project-500051742/
+- **Project site:** https://sky-xhl.github.io/Elec5305-Project-500051742/
 
 ## Research question
 
@@ -100,7 +100,7 @@ The audio dataset, virtual environments, extracted feature caches, and model fil
 Python 3.11 is recommended.
 
 ```powershell
-git clone https://github.com/SKY-XHL/elec5305-project-500051742.git
+git clone https://github.com/SKY-XHL/Elec5305-Project-500051742.git
 cd elec5305-project-500051742
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
