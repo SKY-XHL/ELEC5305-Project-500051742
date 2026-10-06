@@ -1,0 +1,51 @@
+{
+    "dataset": "ESC-50",
+    "dataset_root": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\data\\ESC-50",
+    "records": 2000,
+    "classes": 50,
+    "clips_per_class_expected": 40,
+    "folds_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "fold_distribution": {
+        "1": 400,
+        "2": 400,
+        "3": 400,
+        "4": 400,
+        "5": 400
+    },
+    "duplicate_filenames": 0,
+    "missing_files": 0,
+    "missing_file_names": [],
+    "unreadable_files": 0,
+    "unreadable_file_details": [],
+    "sample_rate_distribution": {
+        "44100": 2000
+    },
+    "channel_distribution": {
+        "1": 2000
+    },
+    "duration_seconds": {
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "mean": 5.0,
+        "unexpected_count": 0
+    },
+    "checks": {
+        "records_correct": true,
+        "classes_correct": true,
+        "clips_per_class_correct": true,
+        "folds_correct": true,
+        "no_duplicate_filenames": true,
+        "no_missing_files": true,
+        "no_unreadable_files": true,
+        "sample_rate_correct": true,
+        "channels_correct": true,
+        "durations_correct": true
+    },
+    "validation_status": "PASS"
+}

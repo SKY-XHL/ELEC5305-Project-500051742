@@ -1,0 +1,59 @@
+{
+  "experiment": "ESC-50 classical feature label efficiency",
+  "feature_cache": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\cache\\classical_features.npz",
+  "representations": [
+    "MFCC",
+    "Log-Mel"
+  ],
+  "classifier": {
+    "name": "LinearSVC",
+    "C": 1.0,
+    "preprocessing": "StandardScaler fitted on labelled training data"
+  },
+  "evaluation": {
+    "outer_test_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "label_budgets_per_class": [
+      "1",
+      "2",
+      "5",
+      "10",
+      "20",
+      "full"
+    ],
+    "partial_budget_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "full_budget_seed": 0,
+    "metrics": [
+      "accuracy",
+      "macro_f1"
+    ],
+    "sampling_without_replacement": true,
+    "shared_samples_between_representations": true
+  },
+  "runtime": {
+    "total_seconds": 240.16463750000003
+  },
+  "software": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1"
+  },
+  "outputs": {
+    "raw_metrics": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\results\\label_efficiency_raw.csv",
+    "summary": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\results\\label_efficiency_summary.csv",
+    "sampling_manifest": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\results\\label_efficiency_samples.csv",
+    "figure": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\results\\figures\\classical_label_efficiency.png"
+  }
+}

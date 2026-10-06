@@ -1,0 +1,20 @@
+{
+    "clips_requested": 2000,
+    "clips_successful": 2000,
+    "clips_failed": 0,
+    "failed_files": [],
+    "mfcc_shape": [
+        2000,
+        80
+    ],
+    "logmel_shape": [
+        2000,
+        256
+    ],
+    "mfcc_dimension": 80,
+    "logmel_dimension": 256,
+    "warmup_seconds": 1.7511790999997174,
+    "total_extraction_seconds": 4075.238065900001,
+    "mean_seconds_per_clip": 2.0376190329500004,
+    "output_file": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\cache\\classical_features.npz"
+}

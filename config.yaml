@@ -1,0 +1,51 @@
+project:
+  name: "Label-Efficient Environmental Sound Classification"
+  random_seed: 42
+
+dataset:
+  name: "ESC-50"
+  root: "data/ESC-50"
+  metadata: "data/ESC-50/meta/esc50.csv"
+  audio_dir: "data/ESC-50/audio"
+
+audio:
+  sample_rate: 44100
+  mono: true
+
+features:
+  n_fft: 2048
+  win_length: 2048
+  hop_length: 512
+  window: "hann"
+  n_mels: 128
+  n_mfcc: 40
+  top_db: 80
+
+classical_baseline:
+  classifier: "rbf_svm"
+  C_values:
+    - 0.1
+    - 1
+    - 10
+    - 100
+  gamma_values:
+    - "scale"
+    - 0.001
+    - 0.01
+    - 0.1
+
+label_efficiency:
+  classifier: "linear_svm"
+  label_budgets:
+    - 1
+    - 2
+    - 5
+    - 10
+    - 20
+    - "full"
+  seeds:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
