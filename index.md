@@ -30,18 +30,18 @@ Frozen CLAP embedding and zero-shot experiments are the next milestones. No CLAP
 | MFCC | 0.4910 ± 0.0232 | 0.4711 ± 0.0207 |
 | Log-Mel | 0.4760 ± 0.0197 | 0.4623 ± 0.0180 |
 
-![Classical baseline](results/figures/classical_metric_comparison.png)
+![Classical baseline](Assignment3_Project_Feedback_Two/results/figures/classical_metric_comparison.png)
 
 ## Classical label efficiency
 
-![Classical label-efficiency learning curves](results/figures/classical_label_efficiency.png)
+![Classical label-efficiency learning curves](Assignment3_Project_Feedback_Two/results/figures/classical_label_efficiency.png)
 
 Log-Mel gives higher mean accuracy and macro-F1 from 1 to 10 labelled examples per class. MFCC slightly exceeds Log-Mel at 20 examples and in the complete 32-example-per-class training condition. These findings are preliminary classical-feature results; CLAP will be added under the same controlled protocol.
 
 ## Project resources
 
-- [Repository README and reproduction instructions](README.md)
-- [Source code](src/)
-- [Result tables and metadata](results/)
-- [Figures](results/figures/)
+- [Assignment 3 README and reproduction instructions](Assignment3_Project_Feedback_Two/README.md)
+- [Source code](Assignment3_Project_Feedback_Two/src/)
+- [Result tables and metadata](Assignment3_Project_Feedback_Two/results/)
+- [Figures](Assignment3_Project_Feedback_Two/results/figures/)
 - [Assignment 1 proposal](Assignment1_Project_Feedback_one/)
