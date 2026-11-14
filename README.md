@@ -31,9 +31,7 @@ Final_Project/
 ├── src/                               # Experiment and report scripts
 ├── results/                           # Metrics, predictions and source figures
 ├── docs/
-│   ├── ELEC5305_Final_Project_Report.pdf
-│   └── ELEC5305_Final_Project_Report.docx
-├── video/                             # Video notes or final local video
+│   └── ELEC5305_Final_Project_Report.pdf
 ├── config.yaml                        # Fixed experiment configuration
 ├── references.bib
 ├── requirements.txt                   # Classical-analysis environment
@@ -118,24 +116,20 @@ The website has no external dependencies. It can be opened directly through `ind
 
 Then open `http://localhost:8000/`.
 
-Before submission, edit `assets/site-config.js` and add the public GitHub repository URL and public or unlisted video URL:
+The public repository and video Release are configured in `assets/site-config.js`:
 
 ```javascript
 window.PROJECT_LINKS = {
-  repository: "https://github.com/your-account/your-repository",
-  video: "https://your-video-link"
+  repository: "https://github.com/SKY-XHL/ELEC5305-Project-500051742",
+  video: "https://github.com/SKY-XHL/ELEC5305-Project-500051742/releases/tag/video-v1"
 };
 ```
 
-The corresponding buttons remain disabled until URLs are supplied, avoiding broken placeholder links.
-
 ## GitHub Pages
 
-1. Create a GitHub repository and upload the contents of `Final_Project`.
-2. In repository **Settings → Pages**, deploy from the main branch and repository root.
-3. Confirm that `index.html`, the report, images and README links load correctly.
-4. Add the final Pages URL to the written report.
-5. Test the project and video links in a private/incognito browser window.
+The published project page is available at:
+
+https://sky-xhl.github.io/ELEC5305-Project-500051742/
 
 ## Report and video
 
