@@ -139,7 +139,8 @@ The corresponding buttons remain disabled until URLs are supplied, avoiding brok
 
 ## Report and video
 
+- Project website: https://sky-xhl.github.io/ELEC5305-Project-500051742/
 - Final report: `docs/ELEC5305_Final_Project_Report.pdf`
-- Video preparation notes: `video/README.md`
+- Project video: https://github.com/SKY-XHL/ELEC5305-Project-500051742/releases/tag/video-v1
 
 The video should briefly show the research question, the processing pipeline, code running on a small example, the main learning curve, confusion reduction, limitations and the final conclusion. The complete 2,000-clip CLAP extraction should not be rerun during the recording.
