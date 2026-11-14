@@ -1,0 +1,151 @@
+prompt_id,template,target,category,precision,recall,f1,support
+prompt_1,this is the sound of {},0,dog,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},1,rooster,0.7017543859649122,1.0,0.8247422680412371,40
+prompt_1,this is the sound of {},2,pig,1.0,0.975,0.9873417721518988,40
+prompt_1,this is the sound of {},3,cow,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},4,frog,0.975609756097561,1.0,0.9876543209876543,40
+prompt_1,this is the sound of {},5,cat,0.975,0.975,0.975,40
+prompt_1,this is the sound of {},6,hen,1.0,0.575,0.7301587301587301,40
+prompt_1,this is the sound of {},7,insects,0.7547169811320755,1.0,0.8602150537634409,40
+prompt_1,this is the sound of {},8,sheep,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},9,crow,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},10,rain,0.9512195121951219,0.975,0.9629629629629629,40
+prompt_1,this is the sound of {},11,sea_waves,0.9523809523809523,1.0,0.975609756097561,40
+prompt_1,this is the sound of {},12,crackling_fire,0.975,0.975,0.975,40
+prompt_1,this is the sound of {},13,crickets,1.0,0.625,0.7692307692307693,40
+prompt_1,this is the sound of {},14,chirping_birds,0.9302325581395349,1.0,0.963855421686747,40
+prompt_1,this is the sound of {},15,water_drops,1.0,0.75,0.8571428571428571,40
+prompt_1,this is the sound of {},16,wind,0.8857142857142857,0.775,0.8266666666666667,40
+prompt_1,this is the sound of {},17,pouring_water,0.7843137254901961,1.0,0.8791208791208791,40
+prompt_1,this is the sound of {},18,toilet_flush,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},19,thunderstorm,0.975609756097561,1.0,0.9876543209876543,40
+prompt_1,this is the sound of {},20,crying_baby,1.0,0.975,0.9873417721518988,40
+prompt_1,this is the sound of {},21,sneezing,0.9736842105263158,0.925,0.9487179487179487,40
+prompt_1,this is the sound of {},22,clapping,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},23,breathing,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},24,coughing,0.9285714285714286,0.975,0.9512195121951219,40
+prompt_1,this is the sound of {},25,footsteps,0.9736842105263158,0.925,0.9487179487179487,40
+prompt_1,this is the sound of {},26,laughing,0.9512195121951219,0.975,0.9629629629629629,40
+prompt_1,this is the sound of {},27,brushing_teeth,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},28,snoring,1.0,0.975,0.9873417721518988,40
+prompt_1,this is the sound of {},29,drinking_sipping,0.9285714285714286,0.975,0.9512195121951219,40
+prompt_1,this is the sound of {},30,door_wood_knock,0.9302325581395349,1.0,0.963855421686747,40
+prompt_1,this is the sound of {},31,mouse_click,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},32,keyboard_typing,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},33,door_wood_creaks,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},34,can_opening,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},35,washing_machine,1.0,0.55,0.7096774193548387,40
+prompt_1,this is the sound of {},36,vacuum_cleaner,0.9743589743589743,0.95,0.9620253164556962,40
+prompt_1,this is the sound of {},37,clock_alarm,0.851063829787234,1.0,0.9195402298850575,40
+prompt_1,this is the sound of {},38,clock_tick,1.0,0.825,0.9041095890410958,40
+prompt_1,this is the sound of {},39,glass_breaking,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},40,helicopter,1.0,0.575,0.7301587301587301,40
+prompt_1,this is the sound of {},41,chainsaw,0.9736842105263158,0.925,0.9487179487179487,40
+prompt_1,this is the sound of {},42,siren,1.0,0.95,0.9743589743589743,40
+prompt_1,this is the sound of {},43,car_horn,1.0,0.925,0.961038961038961,40
+prompt_1,this is the sound of {},44,engine,0.5492957746478874,0.975,0.7027027027027027,40
+prompt_1,this is the sound of {},45,train,0.9302325581395349,1.0,0.963855421686747,40
+prompt_1,this is the sound of {},46,church_bells,0.975609756097561,1.0,0.9876543209876543,40
+prompt_1,this is the sound of {},47,airplane,0.8,0.9,0.8470588235294118,40
+prompt_1,this is the sound of {},48,fireworks,1.0,1.0,1.0,40
+prompt_1,this is the sound of {},49,hand_saw,1.0,1.0,1.0,40
+prompt_2,the sound of {},0,dog,1.0,1.0,1.0,40
+prompt_2,the sound of {},1,rooster,0.8,1.0,0.8888888888888888,40
+prompt_2,the sound of {},2,pig,1.0,1.0,1.0,40
+prompt_2,the sound of {},3,cow,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},4,frog,0.9090909090909091,1.0,0.9523809523809523,40
+prompt_2,the sound of {},5,cat,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},6,hen,0.96875,0.775,0.8611111111111112,40
+prompt_2,the sound of {},7,insects,0.9302325581395349,1.0,0.963855421686747,40
+prompt_2,the sound of {},8,sheep,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},9,crow,1.0,1.0,1.0,40
+prompt_2,the sound of {},10,rain,1.0,0.95,0.9743589743589743,40
+prompt_2,the sound of {},11,sea_waves,0.9523809523809523,1.0,0.975609756097561,40
+prompt_2,the sound of {},12,crackling_fire,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},13,crickets,1.0,0.775,0.8732394366197183,40
+prompt_2,the sound of {},14,chirping_birds,0.95,0.95,0.95,40
+prompt_2,the sound of {},15,water_drops,0.95,0.95,0.95,40
+prompt_2,the sound of {},16,wind,0.9393939393939394,0.775,0.8493150684931506,40
+prompt_2,the sound of {},17,pouring_water,0.975,0.975,0.975,40
+prompt_2,the sound of {},18,toilet_flush,1.0,1.0,1.0,40
+prompt_2,the sound of {},19,thunderstorm,0.9523809523809523,1.0,0.975609756097561,40
+prompt_2,the sound of {},20,crying_baby,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},21,sneezing,1.0,0.875,0.9333333333333333,40
+prompt_2,the sound of {},22,clapping,1.0,1.0,1.0,40
+prompt_2,the sound of {},23,breathing,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},24,coughing,0.8888888888888888,1.0,0.9411764705882353,40
+prompt_2,the sound of {},25,footsteps,1.0,0.825,0.9041095890410958,40
+prompt_2,the sound of {},26,laughing,0.9523809523809523,1.0,0.975609756097561,40
+prompt_2,the sound of {},27,brushing_teeth,1.0,1.0,1.0,40
+prompt_2,the sound of {},28,snoring,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},29,drinking_sipping,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},30,door_wood_knock,0.8695652173913043,1.0,0.9302325581395349,40
+prompt_2,the sound of {},31,mouse_click,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},32,keyboard_typing,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},33,door_wood_creaks,1.0,0.975,0.9873417721518988,40
+prompt_2,the sound of {},34,can_opening,1.0,1.0,1.0,40
+prompt_2,the sound of {},35,washing_machine,0.9310344827586207,0.675,0.782608695652174,40
+prompt_2,the sound of {},36,vacuum_cleaner,0.926829268292683,0.95,0.9382716049382716,40
+prompt_2,the sound of {},37,clock_alarm,0.8695652173913043,1.0,0.9302325581395349,40
+prompt_2,the sound of {},38,clock_tick,0.9714285714285714,0.85,0.9066666666666666,40
+prompt_2,the sound of {},39,glass_breaking,1.0,1.0,1.0,40
+prompt_2,the sound of {},40,helicopter,1.0,0.65,0.7878787878787878,40
+prompt_2,the sound of {},41,chainsaw,0.975609756097561,1.0,0.9876543209876543,40
+prompt_2,the sound of {},42,siren,1.0,1.0,1.0,40
+prompt_2,the sound of {},43,car_horn,1.0,1.0,1.0,40
+prompt_2,the sound of {},44,engine,0.6610169491525424,0.975,0.7878787878787878,40
+prompt_2,the sound of {},45,train,0.9302325581395349,1.0,0.963855421686747,40
+prompt_2,the sound of {},46,church_bells,1.0,1.0,1.0,40
+prompt_2,the sound of {},47,airplane,0.8,0.9,0.8470588235294118,40
+prompt_2,the sound of {},48,fireworks,1.0,1.0,1.0,40
+prompt_2,the sound of {},49,hand_saw,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},0,dog,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},1,rooster,0.7017543859649122,1.0,0.8247422680412371,40
+prompt_3,an audio recording of {},2,pig,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},3,cow,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},4,frog,0.8695652173913043,1.0,0.9302325581395349,40
+prompt_3,an audio recording of {},5,cat,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},6,hen,0.92,0.575,0.7076923076923077,40
+prompt_3,an audio recording of {},7,insects,0.9285714285714286,0.975,0.9512195121951219,40
+prompt_3,an audio recording of {},8,sheep,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},9,crow,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},10,rain,1.0,0.9,0.9473684210526315,40
+prompt_3,an audio recording of {},11,sea_waves,0.9523809523809523,1.0,0.975609756097561,40
+prompt_3,an audio recording of {},12,crackling_fire,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},13,crickets,1.0,0.825,0.9041095890410958,40
+prompt_3,an audio recording of {},14,chirping_birds,0.9444444444444444,0.85,0.8947368421052632,40
+prompt_3,an audio recording of {},15,water_drops,0.9230769230769231,0.9,0.9113924050632911,40
+prompt_3,an audio recording of {},16,wind,0.9375,0.75,0.8333333333333334,40
+prompt_3,an audio recording of {},17,pouring_water,0.9302325581395349,1.0,0.963855421686747,40
+prompt_3,an audio recording of {},18,toilet_flush,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},19,thunderstorm,0.9302325581395349,1.0,0.963855421686747,40
+prompt_3,an audio recording of {},20,crying_baby,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},21,sneezing,0.9714285714285714,0.85,0.9066666666666666,40
+prompt_3,an audio recording of {},22,clapping,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},23,breathing,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},24,coughing,0.8666666666666667,0.975,0.9176470588235294,40
+prompt_3,an audio recording of {},25,footsteps,1.0,0.85,0.918918918918919,40
+prompt_3,an audio recording of {},26,laughing,0.9523809523809523,1.0,0.975609756097561,40
+prompt_3,an audio recording of {},27,brushing_teeth,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},28,snoring,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},29,drinking_sipping,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},30,door_wood_knock,0.8888888888888888,1.0,0.9411764705882353,40
+prompt_3,an audio recording of {},31,mouse_click,0.975,0.975,0.975,40
+prompt_3,an audio recording of {},32,keyboard_typing,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},33,door_wood_creaks,1.0,0.95,0.9743589743589743,40
+prompt_3,an audio recording of {},34,can_opening,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},35,washing_machine,0.9642857142857143,0.675,0.7941176470588235,40
+prompt_3,an audio recording of {},36,vacuum_cleaner,0.9743589743589743,0.95,0.9620253164556962,40
+prompt_3,an audio recording of {},37,clock_alarm,0.8333333333333334,1.0,0.9090909090909091,40
+prompt_3,an audio recording of {},38,clock_tick,0.9411764705882353,0.8,0.8648648648648649,40
+prompt_3,an audio recording of {},39,glass_breaking,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},40,helicopter,1.0,0.625,0.7692307692307693,40
+prompt_3,an audio recording of {},41,chainsaw,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},42,siren,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},43,car_horn,1.0,0.975,0.9873417721518988,40
+prompt_3,an audio recording of {},44,engine,0.5909090909090909,0.975,0.7358490566037735,40
+prompt_3,an audio recording of {},45,train,0.9302325581395349,1.0,0.963855421686747,40
+prompt_3,an audio recording of {},46,church_bells,1.0,1.0,1.0,40
+prompt_3,an audio recording of {},47,airplane,0.8181818181818182,0.9,0.8571428571428571,40
+prompt_3,an audio recording of {},48,fireworks,0.975609756097561,1.0,0.9876543209876543,40
+prompt_3,an audio recording of {},49,hand_saw,1.0,1.0,1.0,40

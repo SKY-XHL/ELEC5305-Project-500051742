@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ELEC5305 project on label-efficient ESC-50 classification with MFCC, Log-Mel and frozen Microsoft CLAP representations.">
+  <meta name="theme-color" content="#071b2d">
+  <title>Label-Efficient Environmental Sound Classification | ELEC5305</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site-config.js" defer></script>
+  <script src="assets/script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Project home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+        <span><strong>ELEC5305</strong><small>Audio Research Project</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Open navigation</span><span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#question">Question</a><a href="#method">Method</a><a href="#results">Results</a><a href="#figures">Figures</a><a href="#reproduce">Reproduce</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">ELEC5305 · Final Project · 2026</p>
+          <h1>Label-Efficient<br><span>Environmental Sound</span><br>Classification</h1>
+          <p class="hero-summary">A controlled ESC-50 study comparing pooled MFCC, pooled Log-Mel and frozen Microsoft CLAP representations under one shared linear-probe protocol.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="docs/ELEC5305_Final_Project_Report.pdf">Read the report <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#results">Explore results</a>
+            <a class="button secondary configurable-link" data-project-link="video" href="#" aria-disabled="true">Video pending</a>
+          </div>
+          <p class="link-status" id="link-status">Video and repository URLs can be added in <code>assets/site-config.js</code>.</p>
+        </div>
+
+        <div class="hero-panel reveal" aria-label="Headline result">
+          <div class="wave-card">
+            <svg viewBox="0 0 720 220" role="img" aria-label="Stylised environmental audio waveform">
+              <defs><linearGradient id="waveGradient" x1="0" x2="1"><stop offset="0" stop-color="#5ee0d1"/><stop offset="0.56" stop-color="#f6c365"/><stop offset="1" stop-color="#f07462"/></linearGradient></defs>
+              <path class="wave-grid" d="M0 55H720M0 110H720M0 165H720M90 0V220M180 0V220M270 0V220M360 0V220M450 0V220M540 0V220M630 0V220"/>
+              <path class="wave-line" d="M0 112 C30 112 36 92 57 92 S84 155 105 155 128 50 151 50 176 140 197 140 215 104 238 104 258 118 279 118 298 28 322 28 344 187 369 187 392 74 414 74 435 129 458 129 478 96 500 96 523 166 546 166 567 47 590 47 613 138 636 138 653 104 676 104 699 112 720 112"/>
+            </svg>
+            <div class="wave-meta"><span>2,000 clips</span><span>50 classes</span><span>5 folds</span></div>
+          </div>
+          <div class="headline-metric">
+            <span class="metric-kicker">Primary zero-shot CLAP</span><strong>93.85<span>%</span></strong>
+            <p>accuracy without fitting on task-specific ESC-50 labels</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-rule" aria-hidden="true"></div>
+    </section>
+
+    <section class="section shell" id="question">
+      <div class="section-heading reveal"><p class="eyebrow dark">01 · Research question</p><h2>How much labelled data does a useful audio representation need?</h2></div>
+      <div class="question-grid">
+        <article class="research-question reveal"><p>How does ESC-50 classification performance scale with the amount of task-specific labelled data when using <strong>MFCC</strong>, <strong>Log-Mel</strong>, or frozen <strong>Microsoft CLAP</strong> representations under a common linear-probe protocol?</p></article>
+        <div class="study-facts reveal" aria-label="Study facts">
+          <div><span>Dataset</span><strong>ESC-50</strong><small>balanced environmental sound benchmark</small></div>
+          <div><span>Label budgets</span><strong>1 → 32</strong><small>clips per class, plus zero-shot CLAP</small></div>
+          <div><span>Metrics</span><strong>Accuracy + F1</strong><small>with class-level error analysis</small></div>
+        </div>
+      </div>
+      <aside class="scope-note reveal"><span>Scope</span><p>The contribution is a reproducible analysis of task-specific label efficiency—not a new foundation model and not a claim of broad out-of-domain generalisation.</p></aside>
+    </section>
+
+    <section class="section method-section" id="method">
+      <div class="shell">
+        <div class="section-heading split reveal">
+          <div><p class="eyebrow">02 · Method</p><h2>One dataset. Three representations. One controlled protocol.</h2></div>
+          <p>Official fold separation and shared sampled filenames keep the representation comparison aligned. The encoders are frozen and cached before downstream evaluation.</p>
+        </div>
+        <div class="method-strip reveal" aria-label="Representation dimensions">
+          <article><span class="method-number">01</span><h3>MFCC</h3><strong>80-D</strong><p>40 coefficients<br>temporal mean + SD</p></article>
+          <article><span class="method-number">02</span><h3>Log-Mel</h3><strong>256-D</strong><p>128 Mel bands<br>temporal mean + SD</p></article>
+          <article class="accent"><span class="method-number">03</span><h3>Frozen CLAP</h3><strong>1,024-D</strong><p>Microsoft CLAP 2023<br>audio embedding</p></article>
+        </div>
+        <figure class="featured-figure reveal">
+          <button class="figure-open" type="button" data-image="assets/workflow.png" data-alt="Complete experiment workflow from ESC-50 validation through frozen representations and two evaluation branches"><img src="assets/workflow.png" alt="Complete experiment workflow from ESC-50 validation through frozen representations and two evaluation branches" loading="lazy"><span class="zoom-hint">Open full size</span></button>
+          <figcaption><span>Figure 1</span> Complete experimental workflow. Zero-shot CLAP and supervised label-efficiency probes are evaluated as separate branches.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section results-section shell" id="results">
+      <div class="section-heading reveal"><p class="eyebrow dark">03 · Key results</p><h2>Strong transfer before the label budget becomes large.</h2><p>All headline values below come from the predeclared primary zero-shot prompt or the repeated five-fold supervised evaluation.</p></div>
+      <div class="metric-grid">
+        <article class="metric-card coral reveal"><span>Zero-shot CLAP</span><strong>93.85%</strong><p>Accuracy · 93.75% macro-F1</p></article>
+        <article class="metric-card teal reveal"><span>CLAP · five labels/class</span><strong>96.45%</strong><p>Accuracy · 96.37% macro-F1</p></article>
+        <article class="metric-card navy reveal"><span>CLAP · full training set</span><strong>97.55%</strong><p>Accuracy · 97.46% macro-F1</p></article>
+        <article class="metric-card pale reveal"><span>Best full classical baseline</span><strong>36.80%</strong><p>MFCC accuracy · 35.21% macro-F1</p></article>
+      </div>
+      <div class="result-story">
+        <div class="result-copy reveal"><span class="story-index">A</span><h3>Five labels per class recover 98.87% of full-data CLAP accuracy.</h3><p>Moving from zero-shot to five-shot adds 2.60 percentage points in accuracy while using 84.4% fewer task-specific labels than the full training condition.</p><ul class="clean-list"><li><span>Zero-shot</span><strong>93.85%</strong></li><li><span>Five-shot</span><strong>96.45%</strong></li><li><span>Full</span><strong>97.55%</strong></li></ul></div>
+        <figure class="result-figure reveal"><button class="figure-open" type="button" data-image="assets/learning_curves.png" data-alt="Accuracy and macro-F1 learning curves for MFCC, Log-Mel, CLAP and zero-shot CLAP"><img src="assets/learning_curves.png" alt="Accuracy and macro-F1 learning curves for MFCC, Log-Mel, CLAP and zero-shot CLAP" loading="lazy"><span class="zoom-hint">Open full size</span></button><figcaption><span>Figure 2</span> Label-efficiency curves under the shared evaluation protocol.</figcaption></figure>
+      </div>
+      <div class="result-story reverse">
+        <div class="result-copy reveal"><span class="story-index">B</span><h3>Local supervision corrects semantically plausible zero-shot errors.</h3><p>Five labelled clips per class sharply reduce several dominant confusion pairs. For example, <em>hen → rooster</em> falls from 42.5% to 0.5%, while <em>crickets → insects</em> falls from 30.0% to 0%.</p><div class="mini-callout"><strong>Interpretation</strong><p>Text-aligned semantics provide a strong starting point; a small amount of local acoustic evidence resolves dataset-specific class boundaries.</p></div></div>
+        <figure class="result-figure reveal"><button class="figure-open" type="button" data-image="assets/confusion_analysis.png" data-alt="Largest zero-shot CLAP confusions reduced by five labelled clips per class"><img src="assets/confusion_analysis.png" alt="Largest zero-shot CLAP confusions reduced by five labelled clips per class" loading="lazy"><span class="zoom-hint">Open full size</span></button><figcaption><span>Figure 3</span> Largest zero-shot confusion pairs reduced in the five-shot condition.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="figures">
+      <div class="shell">
+        <div class="section-heading split reveal"><div><p class="eyebrow">04 · Analysis gallery</p><h2>Every report-ready figure generated by the analysis pipeline.</h2></div><p>Select a category to focus the gallery. Open any figure to inspect the full-resolution output.</p></div>
+        <div class="filter-bar reveal" role="group" aria-label="Filter figures">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All figures</button><button class="filter-button" type="button" data-filter="comparison" aria-pressed="false">Representation comparison</button><button class="filter-button" type="button" data-filter="classical" aria-pressed="false">Classical baselines</button><button class="filter-button" type="button" data-filter="error" aria-pressed="false">Error analysis</button>
+        </div>
+        <div class="figure-gallery">
+          <article class="gallery-card reveal" data-category="comparison"><button class="figure-open" type="button" data-image="assets/figures/all_representation_label_efficiency.png" data-alt="Label efficiency of MFCC, Log-Mel and CLAP across all supervised budgets"><img src="assets/figures/all_representation_label_efficiency.png" alt="Label efficiency of MFCC, Log-Mel and CLAP across all supervised budgets" loading="lazy"></button><div><span>Comparison</span><h3>All-representation label efficiency</h3><p>Accuracy and macro-F1 across the complete supervised label-budget sweep.</p></div></article>
+          <article class="gallery-card reveal" data-category="comparison"><button class="figure-open" type="button" data-image="assets/figures/clap_gain_vs_best_classical.png" data-alt="CLAP performance gain over the best classical representation"><img src="assets/figures/clap_gain_vs_best_classical.png" alt="CLAP performance gain over the best classical representation" loading="lazy"></button><div><span>Comparison</span><h3>CLAP gain over the classical baseline</h3><p>Performance differences relative to the best classical condition.</p></div></article>
+          <article class="gallery-card reveal" data-category="comparison"><button class="figure-open" type="button" data-image="assets/figures/clap_zero_few_full_comparison.png" data-alt="Comparison of zero-shot, few-shot and full-data CLAP performance"><img src="assets/figures/clap_zero_few_full_comparison.png" alt="Comparison of zero-shot, few-shot and full-data CLAP performance" loading="lazy"></button><div><span>CLAP</span><h3>Zero-, few- and full-data CLAP</h3><p>A direct view of the most decision-relevant CLAP operating points.</p></div></article>
+          <article class="gallery-card tall reveal" data-category="error"><button class="figure-open" type="button" data-image="assets/figures/class_recall_heatmap.png" data-alt="Per-class recall heatmap across selected CLAP and classical evaluation conditions"><img src="assets/figures/class_recall_heatmap.png" alt="Per-class recall heatmap across selected CLAP and classical evaluation conditions" loading="lazy"></button><div><span>Error analysis</span><h3>Per-class recall</h3><p>All 50 ESC-50 classes across selected zero-shot, few-shot and full-data conditions.</p></div></article>
+          <article class="gallery-card reveal" data-category="error"><button class="figure-open" type="button" data-image="assets/figures/coarse_category_recall_heatmap.png" data-alt="Recall heatmap aggregated into five ESC-50 coarse categories"><img src="assets/figures/coarse_category_recall_heatmap.png" alt="Recall heatmap aggregated into five ESC-50 coarse categories" loading="lazy"></button><div><span>Error analysis</span><h3>Coarse-category recall</h3><p>Performance aggregated across animals, natural, human, domestic and urban sounds.</p></div></article>
+          <article class="gallery-card reveal" data-category="classical"><button class="figure-open" type="button" data-image="assets/figures/classical_label_efficiency.png" data-alt="Classical MFCC and Log-Mel label-efficiency curves"><img src="assets/figures/classical_label_efficiency.png" alt="Classical MFCC and Log-Mel label-efficiency curves" loading="lazy"></button><div><span>Classical</span><h3>Classical label efficiency</h3><p>MFCC and Log-Mel performance as the number of labelled clips increases.</p></div></article>
+          <article class="gallery-card reveal" data-category="classical"><button class="figure-open" type="button" data-image="assets/figures/classical_learning_curves_zoom.png" data-alt="Zoomed learning curves for MFCC and Log-Mel representations"><img src="assets/figures/classical_learning_curves_zoom.png" alt="Zoomed learning curves for MFCC and Log-Mel representations" loading="lazy"></button><div><span>Classical</span><h3>Classical learning curves</h3><p>A closer view of the smaller MFCC and Log-Mel performance range.</p></div></article>
+          <article class="gallery-card reveal" data-category="classical"><button class="figure-open" type="button" data-image="assets/figures/classical_metric_comparison.png" data-alt="Accuracy and macro-F1 comparison for the classical baselines"><img src="assets/figures/classical_metric_comparison.png" alt="Accuracy and macro-F1 comparison for the classical baselines" loading="lazy"></button><div><span>Classical</span><h3>Classical metric comparison</h3><p>Full-data accuracy and macro-F1 for the tuned classical baselines.</p></div></article>
+          <article class="gallery-card square reveal" data-category="error classical"><button class="figure-open" type="button" data-image="assets/figures/mfcc_confusion_matrix.png" data-alt="MFCC full-data confusion matrix for all 50 ESC-50 classes"><img src="assets/figures/mfcc_confusion_matrix.png" alt="MFCC full-data confusion matrix for all 50 ESC-50 classes" loading="lazy"></button><div><span>Error analysis</span><h3>MFCC confusion matrix</h3><p>Out-of-fold prediction errors for the tuned full-data MFCC baseline.</p></div></article>
+          <article class="gallery-card square reveal" data-category="error classical"><button class="figure-open" type="button" data-image="assets/figures/logmel_confusion_matrix.png" data-alt="Log-Mel full-data confusion matrix for all 50 ESC-50 classes"><img src="assets/figures/logmel_confusion_matrix.png" alt="Log-Mel full-data confusion matrix for all 50 ESC-50 classes" loading="lazy"></button><div><span>Error analysis</span><h3>Log-Mel confusion matrix</h3><p>Out-of-fold prediction errors for the tuned full-data Log-Mel baseline.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section interpretation-section shell">
+      <div class="section-heading reveal"><p class="eyebrow dark">05 · Interpretation</p><h2>The result is strong, but its boundary matters.</h2></div>
+      <div class="interpretation-grid">
+        <article class="reveal"><span>What worked</span><h3>Frozen semantic representations transfer efficiently.</h3><p>CLAP separates most ESC-50 categories before task-specific supervision and benefits further from a small labelled set.</p></article>
+        <article class="reveal"><span>Engineering cost</span><h3>The accuracy gain is not computationally free.</h3><p>The 1,024-D embedding is larger than either pooled classical feature; CPU extraction took 1,016 seconds for 2,000 clips.</p></article>
+        <article class="reveal"><span>Evidence boundary</span><h3>ESC-50 performance is not universal generalisation.</h3><p>Zero-shot means no task-specific labels were used for fitting. It does not prove that pretraining contained no related audio.</p></article>
+      </div>
+    </section>
+
+    <section class="section reproduce-section" id="reproduce">
+      <div class="shell reproduce-grid">
+        <div class="section-heading reveal"><p class="eyebrow">06 · Reproduce</p><h2>From dataset validation to report-ready figures.</h2><p>Commands are run from the <code>Final_Project</code> directory. The full reproducibility notes and environment split are documented in the README.</p><div class="hero-actions"><a class="button light" href="README.md">Open README</a><a class="button outline-light configurable-link" data-project-link="repository" href="#" aria-disabled="true">Repository URL pending</a></div></div>
+        <div class="terminal reveal" aria-label="Example reproduction commands"><div class="terminal-bar"><span></span><span></span><span></span><strong>PowerShell</strong></div><pre><code><span class="prompt">PS&gt;</span> .\.venv\Scripts\python.exe .\src\validate_dataset.py
+<span class="pass">Validation status: PASS</span>
+
+<span class="prompt">PS&gt;</span> .\.venv-clap\Scripts\python.exe .\src\smoke_test_clap.py
+<span class="pass">Smoke-test status: PASS</span>
+
+<span class="prompt">PS&gt;</span> .\.venv\Scripts\python.exe .\src\analyze_final_results.py
+<span class="pass">Analysis status: PASS</span></code></pre></div>
+      </div>
+    </section>
+
+    <section class="closing-section"><div class="shell closing-grid"><div><p class="eyebrow dark">Project conclusion</p><h2>Representation choice dominates the low-label regime on ESC-50.</h2></div><p>Frozen CLAP embeddings substantially reduce task-specific labelling requirements under this controlled protocol. Five labels per class approach full-data CLAP performance, while error analysis shows how local supervision refines the zero-shot semantic boundary.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div><strong>Haoliang Xiong</strong><span>Student ID 500051742</span></div><div><strong>ELEC5305</strong><span>Audio and Acoustic Signal Processing</span></div><div><strong>Project files</strong><span><a href="docs/ELEC5305_Final_Project_Report.pdf">Report</a> · <a href="README.md">README</a></span></div><a class="back-top" href="#top">Back to top ↑</a></div></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Full-size figure viewer"><button class="lightbox-close" type="button" aria-label="Close figure viewer">×</button><img src="" alt=""><p></p></dialog>
+</body>
+</html>

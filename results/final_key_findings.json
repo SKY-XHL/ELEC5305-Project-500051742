@@ -1,0 +1,85 @@
+{
+  "analysis_status": "PASS",
+  "primary_zero_shot": {
+    "prompt_id": "prompt_1",
+    "template": "this is the sound of {}",
+    "accuracy": 0.9385,
+    "macro_f1": 0.9374926213539304,
+    "interpretation": "Primary result fixed before reviewing prompt sensitivity results."
+  },
+  "prompt_sensitivity": {
+    "best_prompt_id_by_accuracy": "prompt_2",
+    "best_prompt_accuracy": 0.954,
+    "accuracy_min": 0.9385,
+    "accuracy_max": 0.954,
+    "accuracy_range": 0.015499999999999958,
+    "reporting_rule": "prompt_2 and prompt_3 are sensitivity analyses, not replacements for the primary prompt_1 result"
+  },
+  "supervised_clap": {
+    "1": {
+      "labels_per_class_numeric": 1,
+      "total_training_clips_mean": 50.0,
+      "accuracy_mean": 0.8798999999999999,
+      "macro_f1_mean": 0.8667939009213517
+    },
+    "2": {
+      "labels_per_class_numeric": 2,
+      "total_training_clips_mean": 100.0,
+      "accuracy_mean": 0.9118,
+      "macro_f1_mean": 0.90327027899529
+    },
+    "5": {
+      "labels_per_class_numeric": 5,
+      "total_training_clips_mean": 250.0,
+      "accuracy_mean": 0.9645,
+      "macro_f1_mean": 0.963727300011874
+    },
+    "10": {
+      "labels_per_class_numeric": 10,
+      "total_training_clips_mean": 500.0,
+      "accuracy_mean": 0.9699,
+      "macro_f1_mean": 0.9689189504887956
+    },
+    "20": {
+      "labels_per_class_numeric": 20,
+      "total_training_clips_mean": 1000.0,
+      "accuracy_mean": 0.9741,
+      "macro_f1_mean": 0.9733207686431216
+    },
+    "full": {
+      "labels_per_class_numeric": 32,
+      "total_training_clips_mean": 1600.0,
+      "accuracy_mean": 0.9755,
+      "macro_f1_mean": 0.974612360223196
+    }
+  },
+  "central_comparisons": {
+    "zero_shot_minus_clap_1shot_accuracy": 0.058600000000000096,
+    "zero_shot_minus_clap_2shot_accuracy": 0.026699999999999946,
+    "clap_5shot_minus_zero_shot_accuracy": 0.026000000000000023,
+    "clap_5shot_minus_zero_shot_macro_f1": 0.0262346786579436,
+    "clap_5shot_fraction_of_full_accuracy": 0.9887237314197848,
+    "clap_5shot_fraction_of_full_macro_f1": 0.9888313952751131,
+    "clap_5shot_label_reduction_vs_full": 0.84375,
+    "clap_1shot_minus_best_full_classical_accuracy": 0.5118999999999999,
+    "clap_1shot_minus_best_full_classical_macro_f1": 0.5147215147151307
+  },
+  "best_full_classical": {
+    "accuracy_representation": "MFCC",
+    "accuracy": 0.368,
+    "macro_f1_representation": "MFCC",
+    "macro_f1": 0.352072386206221
+  },
+  "runtime": {
+    "clap_embedding_extraction_seconds": 1016.4461044,
+    "clap_mean_embedding_seconds_per_clip": 0.5082230522,
+    "label_efficiency_experiment_total_seconds": 10091.534569799998,
+    "clap_full_linear_probe_training_seconds_mean": 509.10524118
+  },
+  "evidence_boundaries": [
+    "Zero-shot means no task-specific ESC-50 labels were used for fitting the classifier.",
+    "It does not prove that CLAP pretraining contained no related or overlapping audio.",
+    "The results establish performance on ESC-50 official folds, not broad out-of-domain generalisation.",
+    "Paired t-tests are supportive analyses across the predefined fold/seed runs."
+  ]
+}

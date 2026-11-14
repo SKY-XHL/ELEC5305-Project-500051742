@@ -1,0 +1,19 @@
+﻿.venv/
+.venv-clap/
+.idea/
+models/
+data/ESC-50/
+cache/*.npz
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+video/
+
+# Local report sources and internal drafting material
+docs/*.docx
+docs/REPORT_BLUEPRINT.md
+docs/LITERATURE_MATRIX.md
+docs/INTRODUCTION_LITERATURE_REVIEW_DRAFT.md
+docs/Project_Feedback_Two_Reference.pdf
+src/build_report_docx.py

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "model": "Microsoft CLAP",
+  "model_version": "2023",
+  "msclap_version": "1.3.4",
+  "torch_version": "2.15.0+cpu",
+  "device": "cpu",
+  "audio_loader": "soundfile",
+  "source_sample_rate_hz": 44100,
+  "clap_sample_rate_hz": 44100,
+  "filename": "1-100032-A-0.wav",
+  "category": "dog",
+  "target": 0,
+  "fold": 1,
+  "prompt": "this is the sound of dog",
+  "audio_embedding_shape": [
+    1,
+    1024
+  ],
+  "text_embedding_shape": [
+    1,
+    1024
+  ],
+  "similarity_shape": [
+    1,
+    1
+  ],
+  "similarity_value": 14.600658416748047,
+  "model_load_seconds": 5.638256000000183,
+  "audio_embedding_seconds": 0.26367359999994733,
+  "text_embedding_seconds": 0.09324530000003506,
+  "cache_file": "E:\\USDY\\26S2\\5305\\5305Assignment\\Project\\Final_Project\\cache\\clap_smoke_1.npz"
+}

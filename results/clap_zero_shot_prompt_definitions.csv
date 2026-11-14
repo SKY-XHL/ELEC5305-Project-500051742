@@ -1,0 +1,151 @@
+prompt_id,template,target,category,class_text,prompt_text
+prompt_1,this is the sound of {},0,dog,dog,this is the sound of dog
+prompt_1,this is the sound of {},1,rooster,rooster,this is the sound of rooster
+prompt_1,this is the sound of {},2,pig,pig,this is the sound of pig
+prompt_1,this is the sound of {},3,cow,cow,this is the sound of cow
+prompt_1,this is the sound of {},4,frog,frog,this is the sound of frog
+prompt_1,this is the sound of {},5,cat,cat,this is the sound of cat
+prompt_1,this is the sound of {},6,hen,hen,this is the sound of hen
+prompt_1,this is the sound of {},7,insects,insects,this is the sound of insects
+prompt_1,this is the sound of {},8,sheep,sheep,this is the sound of sheep
+prompt_1,this is the sound of {},9,crow,crow,this is the sound of crow
+prompt_1,this is the sound of {},10,rain,rain,this is the sound of rain
+prompt_1,this is the sound of {},11,sea_waves,sea waves,this is the sound of sea waves
+prompt_1,this is the sound of {},12,crackling_fire,crackling fire,this is the sound of crackling fire
+prompt_1,this is the sound of {},13,crickets,crickets,this is the sound of crickets
+prompt_1,this is the sound of {},14,chirping_birds,chirping birds,this is the sound of chirping birds
+prompt_1,this is the sound of {},15,water_drops,water drops,this is the sound of water drops
+prompt_1,this is the sound of {},16,wind,wind,this is the sound of wind
+prompt_1,this is the sound of {},17,pouring_water,pouring water,this is the sound of pouring water
+prompt_1,this is the sound of {},18,toilet_flush,toilet flush,this is the sound of toilet flush
+prompt_1,this is the sound of {},19,thunderstorm,thunderstorm,this is the sound of thunderstorm
+prompt_1,this is the sound of {},20,crying_baby,crying baby,this is the sound of crying baby
+prompt_1,this is the sound of {},21,sneezing,sneezing,this is the sound of sneezing
+prompt_1,this is the sound of {},22,clapping,clapping,this is the sound of clapping
+prompt_1,this is the sound of {},23,breathing,breathing,this is the sound of breathing
+prompt_1,this is the sound of {},24,coughing,coughing,this is the sound of coughing
+prompt_1,this is the sound of {},25,footsteps,footsteps,this is the sound of footsteps
+prompt_1,this is the sound of {},26,laughing,laughing,this is the sound of laughing
+prompt_1,this is the sound of {},27,brushing_teeth,brushing teeth,this is the sound of brushing teeth
+prompt_1,this is the sound of {},28,snoring,snoring,this is the sound of snoring
+prompt_1,this is the sound of {},29,drinking_sipping,drinking sipping,this is the sound of drinking sipping
+prompt_1,this is the sound of {},30,door_wood_knock,door wood knock,this is the sound of door wood knock
+prompt_1,this is the sound of {},31,mouse_click,mouse click,this is the sound of mouse click
+prompt_1,this is the sound of {},32,keyboard_typing,keyboard typing,this is the sound of keyboard typing
+prompt_1,this is the sound of {},33,door_wood_creaks,door wood creaks,this is the sound of door wood creaks
+prompt_1,this is the sound of {},34,can_opening,can opening,this is the sound of can opening
+prompt_1,this is the sound of {},35,washing_machine,washing machine,this is the sound of washing machine
+prompt_1,this is the sound of {},36,vacuum_cleaner,vacuum cleaner,this is the sound of vacuum cleaner
+prompt_1,this is the sound of {},37,clock_alarm,clock alarm,this is the sound of clock alarm
+prompt_1,this is the sound of {},38,clock_tick,clock tick,this is the sound of clock tick
+prompt_1,this is the sound of {},39,glass_breaking,glass breaking,this is the sound of glass breaking
+prompt_1,this is the sound of {},40,helicopter,helicopter,this is the sound of helicopter
+prompt_1,this is the sound of {},41,chainsaw,chainsaw,this is the sound of chainsaw
+prompt_1,this is the sound of {},42,siren,siren,this is the sound of siren
+prompt_1,this is the sound of {},43,car_horn,car horn,this is the sound of car horn
+prompt_1,this is the sound of {},44,engine,engine,this is the sound of engine
+prompt_1,this is the sound of {},45,train,train,this is the sound of train
+prompt_1,this is the sound of {},46,church_bells,church bells,this is the sound of church bells
+prompt_1,this is the sound of {},47,airplane,airplane,this is the sound of airplane
+prompt_1,this is the sound of {},48,fireworks,fireworks,this is the sound of fireworks
+prompt_1,this is the sound of {},49,hand_saw,hand saw,this is the sound of hand saw
+prompt_2,the sound of {},0,dog,dog,the sound of dog
+prompt_2,the sound of {},1,rooster,rooster,the sound of rooster
+prompt_2,the sound of {},2,pig,pig,the sound of pig
+prompt_2,the sound of {},3,cow,cow,the sound of cow
+prompt_2,the sound of {},4,frog,frog,the sound of frog
+prompt_2,the sound of {},5,cat,cat,the sound of cat
+prompt_2,the sound of {},6,hen,hen,the sound of hen
+prompt_2,the sound of {},7,insects,insects,the sound of insects
+prompt_2,the sound of {},8,sheep,sheep,the sound of sheep
+prompt_2,the sound of {},9,crow,crow,the sound of crow
+prompt_2,the sound of {},10,rain,rain,the sound of rain
+prompt_2,the sound of {},11,sea_waves,sea waves,the sound of sea waves
+prompt_2,the sound of {},12,crackling_fire,crackling fire,the sound of crackling fire
+prompt_2,the sound of {},13,crickets,crickets,the sound of crickets
+prompt_2,the sound of {},14,chirping_birds,chirping birds,the sound of chirping birds
+prompt_2,the sound of {},15,water_drops,water drops,the sound of water drops
+prompt_2,the sound of {},16,wind,wind,the sound of wind
+prompt_2,the sound of {},17,pouring_water,pouring water,the sound of pouring water
+prompt_2,the sound of {},18,toilet_flush,toilet flush,the sound of toilet flush
+prompt_2,the sound of {},19,thunderstorm,thunderstorm,the sound of thunderstorm
+prompt_2,the sound of {},20,crying_baby,crying baby,the sound of crying baby
+prompt_2,the sound of {},21,sneezing,sneezing,the sound of sneezing
+prompt_2,the sound of {},22,clapping,clapping,the sound of clapping
+prompt_2,the sound of {},23,breathing,breathing,the sound of breathing
+prompt_2,the sound of {},24,coughing,coughing,the sound of coughing
+prompt_2,the sound of {},25,footsteps,footsteps,the sound of footsteps
+prompt_2,the sound of {},26,laughing,laughing,the sound of laughing
+prompt_2,the sound of {},27,brushing_teeth,brushing teeth,the sound of brushing teeth
+prompt_2,the sound of {},28,snoring,snoring,the sound of snoring
+prompt_2,the sound of {},29,drinking_sipping,drinking sipping,the sound of drinking sipping
+prompt_2,the sound of {},30,door_wood_knock,door wood knock,the sound of door wood knock
+prompt_2,the sound of {},31,mouse_click,mouse click,the sound of mouse click
+prompt_2,the sound of {},32,keyboard_typing,keyboard typing,the sound of keyboard typing
+prompt_2,the sound of {},33,door_wood_creaks,door wood creaks,the sound of door wood creaks
+prompt_2,the sound of {},34,can_opening,can opening,the sound of can opening
+prompt_2,the sound of {},35,washing_machine,washing machine,the sound of washing machine
+prompt_2,the sound of {},36,vacuum_cleaner,vacuum cleaner,the sound of vacuum cleaner
+prompt_2,the sound of {},37,clock_alarm,clock alarm,the sound of clock alarm
+prompt_2,the sound of {},38,clock_tick,clock tick,the sound of clock tick
+prompt_2,the sound of {},39,glass_breaking,glass breaking,the sound of glass breaking
+prompt_2,the sound of {},40,helicopter,helicopter,the sound of helicopter
+prompt_2,the sound of {},41,chainsaw,chainsaw,the sound of chainsaw
+prompt_2,the sound of {},42,siren,siren,the sound of siren
+prompt_2,the sound of {},43,car_horn,car horn,the sound of car horn
+prompt_2,the sound of {},44,engine,engine,the sound of engine
+prompt_2,the sound of {},45,train,train,the sound of train
+prompt_2,the sound of {},46,church_bells,church bells,the sound of church bells
+prompt_2,the sound of {},47,airplane,airplane,the sound of airplane
+prompt_2,the sound of {},48,fireworks,fireworks,the sound of fireworks
+prompt_2,the sound of {},49,hand_saw,hand saw,the sound of hand saw
+prompt_3,an audio recording of {},0,dog,dog,an audio recording of dog
+prompt_3,an audio recording of {},1,rooster,rooster,an audio recording of rooster
+prompt_3,an audio recording of {},2,pig,pig,an audio recording of pig
+prompt_3,an audio recording of {},3,cow,cow,an audio recording of cow
+prompt_3,an audio recording of {},4,frog,frog,an audio recording of frog
+prompt_3,an audio recording of {},5,cat,cat,an audio recording of cat
+prompt_3,an audio recording of {},6,hen,hen,an audio recording of hen
+prompt_3,an audio recording of {},7,insects,insects,an audio recording of insects
+prompt_3,an audio recording of {},8,sheep,sheep,an audio recording of sheep
+prompt_3,an audio recording of {},9,crow,crow,an audio recording of crow
+prompt_3,an audio recording of {},10,rain,rain,an audio recording of rain
+prompt_3,an audio recording of {},11,sea_waves,sea waves,an audio recording of sea waves
+prompt_3,an audio recording of {},12,crackling_fire,crackling fire,an audio recording of crackling fire
+prompt_3,an audio recording of {},13,crickets,crickets,an audio recording of crickets
+prompt_3,an audio recording of {},14,chirping_birds,chirping birds,an audio recording of chirping birds
+prompt_3,an audio recording of {},15,water_drops,water drops,an audio recording of water drops
+prompt_3,an audio recording of {},16,wind,wind,an audio recording of wind
+prompt_3,an audio recording of {},17,pouring_water,pouring water,an audio recording of pouring water
+prompt_3,an audio recording of {},18,toilet_flush,toilet flush,an audio recording of toilet flush
+prompt_3,an audio recording of {},19,thunderstorm,thunderstorm,an audio recording of thunderstorm
+prompt_3,an audio recording of {},20,crying_baby,crying baby,an audio recording of crying baby
+prompt_3,an audio recording of {},21,sneezing,sneezing,an audio recording of sneezing
+prompt_3,an audio recording of {},22,clapping,clapping,an audio recording of clapping
+prompt_3,an audio recording of {},23,breathing,breathing,an audio recording of breathing
+prompt_3,an audio recording of {},24,coughing,coughing,an audio recording of coughing
+prompt_3,an audio recording of {},25,footsteps,footsteps,an audio recording of footsteps
+prompt_3,an audio recording of {},26,laughing,laughing,an audio recording of laughing
+prompt_3,an audio recording of {},27,brushing_teeth,brushing teeth,an audio recording of brushing teeth
+prompt_3,an audio recording of {},28,snoring,snoring,an audio recording of snoring
+prompt_3,an audio recording of {},29,drinking_sipping,drinking sipping,an audio recording of drinking sipping
+prompt_3,an audio recording of {},30,door_wood_knock,door wood knock,an audio recording of door wood knock
+prompt_3,an audio recording of {},31,mouse_click,mouse click,an audio recording of mouse click
+prompt_3,an audio recording of {},32,keyboard_typing,keyboard typing,an audio recording of keyboard typing
+prompt_3,an audio recording of {},33,door_wood_creaks,door wood creaks,an audio recording of door wood creaks
+prompt_3,an audio recording of {},34,can_opening,can opening,an audio recording of can opening
+prompt_3,an audio recording of {},35,washing_machine,washing machine,an audio recording of washing machine
+prompt_3,an audio recording of {},36,vacuum_cleaner,vacuum cleaner,an audio recording of vacuum cleaner
+prompt_3,an audio recording of {},37,clock_alarm,clock alarm,an audio recording of clock alarm
+prompt_3,an audio recording of {},38,clock_tick,clock tick,an audio recording of clock tick
+prompt_3,an audio recording of {},39,glass_breaking,glass breaking,an audio recording of glass breaking
+prompt_3,an audio recording of {},40,helicopter,helicopter,an audio recording of helicopter
+prompt_3,an audio recording of {},41,chainsaw,chainsaw,an audio recording of chainsaw
+prompt_3,an audio recording of {},42,siren,siren,an audio recording of siren
+prompt_3,an audio recording of {},43,car_horn,car horn,an audio recording of car horn
+prompt_3,an audio recording of {},44,engine,engine,an audio recording of engine
+prompt_3,an audio recording of {},45,train,train,an audio recording of train
+prompt_3,an audio recording of {},46,church_bells,church bells,an audio recording of church bells
+prompt_3,an audio recording of {},47,airplane,airplane,an audio recording of airplane
+prompt_3,an audio recording of {},48,fireworks,fireworks,an audio recording of fireworks
+prompt_3,an audio recording of {},49,hand_saw,hand saw,an audio recording of hand saw

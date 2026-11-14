@@ -1,0 +1,16 @@
+prompt_id,template,fold,test_samples,accuracy,macro_f1
+prompt_1,this is the sound of {},1,400,0.94,0.935774199312899
+prompt_1,this is the sound of {},2,400,0.9625,0.9631179921243862
+prompt_1,this is the sound of {},3,400,0.925,0.9202117396221584
+prompt_1,this is the sound of {},4,400,0.9425,0.9407929918378835
+prompt_1,this is the sound of {},5,400,0.9225,0.9153646843925481
+prompt_2,the sound of {},1,400,0.95,0.9484908160295157
+prompt_2,the sound of {},2,400,0.965,0.9643258277670043
+prompt_2,the sound of {},3,400,0.9525,0.9499986236673544
+prompt_2,the sound of {},4,400,0.965,0.964780578898226
+prompt_2,the sound of {},5,400,0.9375,0.9324381624567384
+prompt_3,an audio recording of {},1,400,0.945,0.9429022575291925
+prompt_3,an audio recording of {},2,400,0.9475,0.9481577605401135
+prompt_3,an audio recording of {},3,400,0.935,0.9331515818203125
+prompt_3,an audio recording of {},4,400,0.9575,0.9565689241958591
+prompt_3,an audio recording of {},5,400,0.9275,0.9211710005194996

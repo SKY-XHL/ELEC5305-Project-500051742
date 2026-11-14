@@ -1,0 +1,19 @@
+{
+    "clips_requested": 10,
+    "clips_successful": 10,
+    "clips_failed": 0,
+    "failed_files": [],
+    "mfcc_shape": [
+        10,
+        80
+    ],
+    "logmel_shape": [
+        10,
+        256
+    ],
+    "mfcc_dimension": 80,
+    "logmel_dimension": 256,
+    "total_extraction_seconds": 17.056807500001014,
+    "mean_seconds_per_clip": 1.7056807500001014,
+    "output_file": "E:\\USDY\\26S2\\5305\\5305Assignment\\Assignment3_Project_Feedback_Two\\cache\\classical_features_smoke_10.npz"
+}

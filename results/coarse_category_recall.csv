@@ -1,0 +1,36 @@
+coarse_id,coarse_category,condition,macro_recall,classes
+0,Animals,CLAP 1-shot,0.9640000000000001,10
+0,Animals,CLAP 2-shot,0.9615,10
+0,Animals,CLAP 5-shot,0.9894999999999999,10
+0,Animals,CLAP full,0.9974999999999999,10
+0,Animals,Log-Mel full,0.36,10
+0,Animals,MFCC full,0.375,10
+0,Animals,Zero-shot CLAP,0.9525,10
+1,Natural soundscapes & water,CLAP 1-shot,0.8370000000000001,10
+1,Natural soundscapes & water,CLAP 2-shot,0.877,10
+1,Natural soundscapes & water,CLAP 5-shot,0.9640000000000001,10
+1,Natural soundscapes & water,CLAP full,0.97,10
+1,Natural soundscapes & water,Log-Mel full,0.43,10
+1,Natural soundscapes & water,MFCC full,0.45,10
+1,Natural soundscapes & water,Zero-shot CLAP,0.9099999999999999,10
+2,Human non-speech sounds,CLAP 1-shot,0.8845000000000001,10
+2,Human non-speech sounds,CLAP 2-shot,0.9355,10
+2,Human non-speech sounds,CLAP 5-shot,0.97,10
+2,Human non-speech sounds,CLAP full,0.9775,10
+2,Human non-speech sounds,Log-Mel full,0.34750000000000003,10
+2,Human non-speech sounds,MFCC full,0.3375,10
+2,Human non-speech sounds,Zero-shot CLAP,0.9724999999999999,10
+3,Interior & domestic sounds,CLAP 1-shot,0.8605,10
+3,Interior & domestic sounds,CLAP 2-shot,0.9164999999999999,10
+3,Interior & domestic sounds,CLAP 5-shot,0.9605,10
+3,Interior & domestic sounds,CLAP full,0.975,10
+3,Interior & domestic sounds,Log-Mel full,0.3325,10
+3,Interior & domestic sounds,MFCC full,0.335,10
+3,Interior & domestic sounds,Zero-shot CLAP,0.9324999999999999,10
+4,Exterior & urban noises,CLAP 1-shot,0.8535,10
+4,Exterior & urban noises,CLAP 2-shot,0.8685,10
+4,Exterior & urban noises,CLAP 5-shot,0.9385,10
+4,Exterior & urban noises,CLAP full,0.9574999999999999,10
+4,Exterior & urban noises,Log-Mel full,0.28250000000000003,10
+4,Exterior & urban noises,MFCC full,0.34249999999999997,10
+4,Exterior & urban noises,Zero-shot CLAP,0.925,10
